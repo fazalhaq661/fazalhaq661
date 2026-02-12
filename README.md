@@ -66,11 +66,14 @@
 flowchart LR
     A[USSD / POS / ATM] --> B[Switch Layer]
     B --> C[ISO8583 Client]
-    C --> D[APS / External Switch]
+    C --> D[APS Switch]
     D --> E[Core Banking]
     E --> F[PostgreSQL DB]
     D --> G[OTP Service]
     G --> H[SMS / Email Gateway]
+    E --> D
+    G --> D
+    H --> I[User]
 ```
 
 ### Architecture Focus
