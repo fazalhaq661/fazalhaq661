@@ -52,6 +52,84 @@
 
 ---
 
+## 🔄 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fazalhaq661&theme=react-dark" />
+</p>
+
+---
+
+## 🏦 Banking System Architecture
+
+```mermaid
+flowchart LR
+    A[USSD / POS / ATM] --> B[Switch Layer]
+    B --> C[ISO8583 Client]
+    C --> D[APS / External Switch]
+    C --> E[Core Banking]
+    E --> F[PostgreSQL DB]
+    C --> G[OTP Service]
+    G --> H[SMS / Email Gateway]
+```
+
+### Architecture Focus
+
+- 🔁 Async handling with RabbitMQ
+- 🧠 Dialect-based ISO8583 parsing
+- 🧩 Modular Spring Boot multi-module design
+- 🐳 Fully containerized deployment
+- 📊 Logging & transaction tracing
+
+---
+
+## 🔐 Secure by Design
+
+Security is not optional in financial systems.
+
+✔️ Input validation at ISO field level  
+✔️ Strict LLVAR / LLLVAR length verification  
+✔️ Transaction integrity checks  
+✔️ Idempotent request handling  
+✔️ Sensitive data masking in logs  
+✔️ Database transaction management  
+✔️ Docker isolation  
+
+---
+
+## 🧪 Testing & Quality Engineering
+
+I design systems that are testable and production-ready.
+
+### Integration Testing
+- 🐳 Testcontainers with PostgreSQL
+- 🔄 Real database testing (no fake mocks for critical flows)
+- 📦 Multi-module integration tests
+
+### Unit Testing
+- MockBean isolation
+- ISO message validation tests
+- STAN uniqueness verification
+
+### Example Stack
+- JUnit 5
+- SpringBootTest
+- Testcontainers
+- Kotlin test
+
+---
+
+## 💳 ISO8583 Expertise
+
+- Bitmap parsing & validation
+- LLVAR / LLLVAR encoding
+- ASCII TLV (Field 48)
+- Custom dialect (SVFE_H2H)
+- MessageFactory usage
+- Financial transaction flow design
+
+---
+
 ## 🔥 Current Goals
 
 - Master advanced Spring Boot internals
