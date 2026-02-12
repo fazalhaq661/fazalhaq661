@@ -19,7 +19,7 @@
 ### Backend
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue)
 ![Java](https://img.shields.io/badge/Java-21-orange)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-3-green)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-4-green)
 ![Reactor](https://img.shields.io/badge/Reactor-Reactive-purple)
 
 ### Database & Infra
