@@ -144,8 +144,8 @@ I design systems that are testable and production-ready.
 
 ## 📫 Connect With Me
 
-- LinkedIn: (add link)
-- Email: (optional)
+- LinkedIn: https://www.linkedin.com/in/fazalhaq-fazel/
+- Email: fazalhaq6870542@gmail.com
 
 ---
 
